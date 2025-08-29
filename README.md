@@ -60,6 +60,8 @@ sudo VBoxManage extpack install <path_to_extension_pack>.vbox-ext.zip
 curl -LO "https://storage.googleapis.com/kubernetes-release/bin/v1.25.0/linux/amd64/kubectl"
 sudo chmod +x kubectl
 sudo mv kubectl /usr/local/bin/
+For troubleshoting use
+sudo rm /usr/local/bin/kubectl
 ```
 
 Verify the installation:
